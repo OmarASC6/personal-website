@@ -3,9 +3,20 @@
   }
   
   body {
+      padding: 0px;
     margin: 0;
     font-family: Arial;
   }
+  /* the background image*/
+.bg-image {
+    z-index: -1;
+    background-image: url("https://images.unsplash.com/photo-1517547196086-e63b7ae6afb0?ixlib=rb-1.2.1&w=1000&q=80");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+  }
+  
   
   .header {
     text-align: center;
@@ -33,6 +44,21 @@
     vertical-align: middle;
     width: 100%;
   }
+
+  #title{
+      color: azure;
+      font-size: 70px;
+      text-align: center;
+    font-family: 'Red Hat Text', sans-serif;
+
+  }
+  #desc{
+      font-size: 20px;
+    color: azure;
+margin-block-start: -27px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
@@ -50,4 +76,28 @@
       flex: 100%;
       max-width: 100%;
     }
+  }
+
+
+
+
+  /* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(51, 91, 223);
   }
