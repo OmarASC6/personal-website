@@ -5,6 +5,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .moi{
     border-radius: 70%;
 }
+.nerd{
+    width: 250px;
+    height: 250px;
+}
 
 
 /* the social media buttons*/
