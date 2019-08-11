@@ -6,3 +6,8 @@ body {
     margin-block-start: 30px;
 } 
 
+#my-name{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
