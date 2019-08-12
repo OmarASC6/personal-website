@@ -1,3 +1,7 @@
-# personal-website-03
+# personal-website-final
 
-In the html, I used the W3 property I found using this referenece "https://www.w3schools.com/w3css/w3css_references.asp"
+Things to do:
+  Fnish the projects page by adding the prjects I worked on before 
+  Add navbars to the projects, portfolio, and resume pages
+  
+  
