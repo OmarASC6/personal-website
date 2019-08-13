@@ -1,45 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css\projects.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <script src="js\home.js" type="text/javascript" defer></script>
+
   <title>Projects</title>
 
 
 </head>
+
 <body>
 
-<div class="container">
-  <div class="jumbotron">
-    <h1>My Projects</h1>
-    <p>While I was in All Star Code, I worked on some basic projects to develop
-      some skills in JavaScript, HTML, and CSS. Some of these projects
-      involved game design or making websites. I worked on most of the
-      projects with other peers. Some examples of these projects are attached
-      above with their links to their github.</p> 
+  <!-- Navbar -->
+  <div class="w3-top">
+      <div class="w3-bar w3-indigo w3-card w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-indigo"
+          href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+        <a href="resume.html" target="_blank"
+          class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Resume</a>
+        <a href="projects.html" target="_blank"
+          class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Projects</a>
+        <a href="gallery.html" target="_blank"
+          class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Portfolio</a>
+      </div>
+  
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="resume.html" target="_blank" class="w3-bar-item w3-button w3-padding-large">Resume</a>
+        <a href="projects.html" target="_blank" class="w3-bar-item w3-button w3-padding-large">Projects</a>
+        <a href="gallery.html" target="_blank" class="w3-bar-item w3-button w3-padding-large">Portfolio</a>
+      </div>
+    </div>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>My Projects</h1>
+      <p>While I was in All Star Code, I worked on some basic projects to develop
+        some skills in JavaScript, HTML, and CSS. Some of these projects
+        involved game design or making websites. I worked on most of the
+        projects with other peers. Some examples of these projects are attached
+        above with their links to their github.</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Coming Soon</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Coming Soon</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Coming Soon</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+    </div>
   </div>
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Coming Soon</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Coming Soon</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Coming Soon</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
-</div>
 
 </body>
+
 </html>
